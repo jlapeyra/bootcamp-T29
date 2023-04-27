@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici 14</title>
+    <style>
+        /* Container holding the image and the text */
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        table, th, td {
+            border: solid 1px;
+        }
+        table {
+            background-color: rgb(255, 255, 158);
+            width: 30em;
+        }
+        th {
+            background-color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/penguins.jpg" alt="Penguins">
+        <div class="centered">
+            <table>
+                <tr>
+                    <th colspan="2">ENCABEZADO</th>
+                </tr>
+                <tr>
+                    <td>CELDA 1</td>
+                    <td>CELDA 2</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
